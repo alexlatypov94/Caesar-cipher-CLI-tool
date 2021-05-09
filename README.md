@@ -5,7 +5,7 @@ It transform only latin letters.
 
 ## How to install
 
-1. Download or clone this repository `git clone https://github.com/alexlatypov94/Caesar-cipher-CLI-tool.git`
+1. Download or clone this repository `git clone https://github.com/alexlatypov94/Caesar-cipher-CLI-tool.git` or `git clone git@github.com:alexlatypov94/Caesar-cipher-CLI-tool.git`
 2. Change directory to "caesar-cipher-node.js" `git checkout caesar-cipher-cli-tool`
 3. Install dependencies. `npm i` or `npm install`
 
@@ -13,10 +13,10 @@ It transform only latin letters.
 
 Options:
 
-* -s, --shift: cipher shift. Positive or negative number.
-* -a, --action: action. Use encode to encrypt text and decode to decrypt.
-* -i, --input: input file. Use '/' as prefix to url (Optional).
-* -o, --output: output file. Use '/' as prefix to url (Optional).
+- -s, --shift: cipher shift. Positive or negative number.
+- -a, --action: action. Use encode to encrypt text and decode to decrypt.
+- -i, --input: input file. Use '/' as prefix to url (Optional).
+- -o, --output: output file. Use '/' as prefix to url (Optional).
 
 ## Examples:
 
@@ -32,9 +32,9 @@ Options:
 
 ## Files
 
-* index.js - Executable file.
-* modules/caesar-cipher.js - Caesar cipher function.
-* modules/console-arg.js - Options creation and handling.
-* modules/transform.js - Transform stream creation.
-* modules/errors.js - Function for error custom generating
-* modules/streams.js
+- index.js - Executable file.
+- modules/caesar-cipher.js - Caesar cipher function.
+- modules/console-arg.js - Options creation and handling.
+- modules/transform.js - Transform stream creation.
+- modules/errors.js - Function for error custom generating
+- modules/streams.js
