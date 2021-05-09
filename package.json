@@ -1,0 +1,28 @@
+{
+  "name": "caesar-cipher-cli-tool",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlatypov94/Caesar-cipher-CLI-tool.git"
+  },
+  "keywords": [
+    "js",
+    "node"
+  ],
+  "author": "Aliaksei Latypau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlatypov94/Caesar-cipher-CLI-tool/issues"
+  },
+  "homepage": "https://github.com/alexlatypov94/Caesar-cipher-CLI-tool#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.5"
+  }
+}
