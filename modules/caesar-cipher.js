@@ -1,10 +1,10 @@
-const caesarCipher = (text, shift, mode) => {
+const caesarCipher = (text, shift, mode, old) => {
   if (mode !== 'encode') {
     shift *= -1;
   }
   const alphabet = 'abcdefghijklmnopqrstuvwxyz';
   const alphabetArray = alphabet.split('');
-  return text
+  const transformText = text
     .split('')
     .map((letter) => {
       const searchIdx = alphabetArray.indexOf(letter.toLowerCase());
@@ -24,6 +24,7 @@ const caesarCipher = (text, shift, mode) => {
       }
     })
     .join('');
+  return old + transformText;
 };
 
 module.exports = { caesarCipher };
